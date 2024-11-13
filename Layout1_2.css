@@ -1,0 +1,117 @@
+* {padding: 0; margin: 0; }
+
+.menu {top: 0;  width: 1200px; font-family: sans-serif;  margin: auto; 
+    display: flex; line-height: 70px;  position: relative;}
+  .menu .kirimenu {display: inline-block;  width: 300px; height: 70px; padding: 17px 0; background: white; margin-left: 80px;}
+  .menu .kananmenu  { display: inline-block;  width: 700px; background: white;  margin: 15px 0 0 180px;}
+  .menu .kananmenu ul {text-decoration: none;}
+  
+  .menu .kananmenu ul li {display: inline-block;  position: relative;  margin-left: 5px; background: white;}
+  .menu .kananmenu li a {padding: 22px 15px 23px; color: black;}
+  
+  .menu .kananmenu ul ul { display: none; position: absolute; top: 100%; left: 0; 
+    background-color: white; padding: 10px; z-index: 2;}
+    
+  .menu .kananmenu ul ul li { display: block;  clear: both; width: 150px; margin: 0; padding: 0;}
+  .menu .kananmenu ul ul ul { left: 100%; top: 0; }
+  .menu .kananmenu ul ul li a {padding: 10px; color: black; text-decoration: none;}
+  .menu .kananmenu ul ul ul li {width: 200px;}
+
+  .menu .kananmenu ul li:hover > ul {display: block;}
+  .menu .kananmenu ul li:hover {background: white;}
+  .menu .kananmenu ul li a:hover {color: black; background: white;}
+  .menu .kananmenu  img {width: 20px; height: 20px; margin: 20px 0 0 20px;} 
+
+  article .cont {width: 1200px; height: 1400px; margin: auto; overflow: hidden; 
+    padding: 50px 20px; position: relative; font-family: sans-serif; background-color: whitesmoke;}
+    article .cont .contay .contop {width: 700px; height: 100px; padding: 30px; margin: auto; position: relative;
+    float: left;}
+    article .cont .contay .contop .topan {float: left;}
+    article .cont .contay .contop .topan a {font-size: 12px; margin-bottom: 10px; color: grey;}
+    article .cont .contay .contop .topan h1 {font-size: 35px;}
+    article .cont .contay .contop .topir select{width: 220px; font-size: 15px; background: white;
+      padding: 10px; border-radius: 4px; float: right; margin-right: 35px;}
+    article .cont .contay {width: 700px; height: 1300px;
+      margin-left: 50px; float: left;}
+    article .cont .contay img {width: 200px; height: 200px;}
+    article .cont .contay .teks {float: left; margin-bottom: 40px;}
+    article .cont .contay .teks a {font-size: 16px; font-family: sans-serif; color: black; text-decoration: none;}
+    article .cont .contay .teks h3 {width: 72px; height: 13.7px;}
+    article .cont .contay .teks p {font-size: 13px; font-family: sans-serif; float: left; padding-top: 15px;}
+    article .cont .contay .add {margin-bottom: 20px; margin-top: 10px; float: left;}
+    article .cont .contay .add a {color: white; background-color: black; padding: 8px 15px; text-decoration: none;}
+
+    article .cont .contay .atas {width: 700px; height: auto; overflow:hidden ; 
+      float: left; }
+      article .cont .contay .tengah  {width: 700px; height: auto; overflow:hidden;   float: left;}
+   
+      article .cont .contay .bawah  {width: 700px; height: auto; overflow:hidden;   float: left;}
+  
+   article .cont .contay .atas .product, 
+   article .cont .contay .tengah .product
+    {width: 200px; height: auto;  margin-left: 25px; float:left;}
+
+    article .cont .contay .bawah .product {width: 200px; height: auto;  margin-left: 25px; float:left;}
+
+    article .cont .contay .pagination { width: 500px; margin: auto; padding: 15px; margin-top: 20px;}
+    article .cont .contay .pagination a {padding: 10px 15px; text-decoration: none; color: white; background-color: black;}
+    article .cont .contay .pagination a:hover {background-color: silver;}   
+
+  article .cont .contide {width: 330px; height: 1000px; position: relative; float: right;
+  margin-right: 40px; background-color: white; padding: 20px;}
+  article .cont .contide .sias {margin-bottom: 10px;}
+  article .cont .contide .sias .top {margin: 10px 0;}
+  article .cont .contide .sias .col img {width: 48x; height: 48px; float: left;}
+  article .cont .contide .sias .col {width: 330px; height: 50px; margin-top: 10px;}
+  article .cont .contide .sias .teks {float: left; margin-left: 10px; margin-top: 5px;}
+  article .cont .contide .sias .teks .hov a  {text-decoration: none; color: black;}
+ 
+  article .cont .contide .sitah {width: 330px; height: 500px; position: relative; margin: auto;  padding-top: 20px;}
+  article .cont .contide .sitah h2 {margin-bottom: 10px; float: left;}
+ 
+  article .cont .contide .sitah .look {width: 300px; height: 42px; margin-bottom: 50px;} 
+  input[type=text] { background-color: white;  float: left;  padding: 10px;}
+  article .cont .contide .sitah .look .but a {color: white; background-color: black; width: ;}
+  article .cont .contide .sitah .butok {}
+  article .cont .contide .sitah .butok input[type=teks] {padding: 10px;}
+  article .cont .contide .sitah .butok a {background-color: black; color: white; 
+    padding: 10px; text-decoration: none;  margin-left: 5px;}
+    article .cont .contide .sitah .butok input[type=text] {height: 30px; width: 100px;}
+    article .cont .contide .sitah .fll  {margin-bottom: 5px; width: 330px; height: 40px; float: left;}
+    article .cont .contide .sitah .fil hr {
+      padding: 8px; 
+       background-color: black;}
+    article .cont .contide .sitah .fil .price {float: left; margin-bottom: 20px; margin-top: 30px; margin-right: 10px;}
+    article .cont .contide .sitah .fil .price .kapri {width: 70px; float: left; padding: 8px; 
+      margin-left: 10px; border: 1px solid black; margin-top: 10px;} 
+      article .cont .contide .sitah .fil .price .kipri {width: 70px; float: left; padding: 8px; 
+        margin-left: 50px; border: 1px solid black; margin-top: 10px;} 
+
+  article .cont .contide .sitah .socon img {width: 60px; height: 60px; }
+  article .cont .contide .sitah .fous {margin-top: 130px; margin-bottom: 50px;}
+  article .cont .contide .sitah .socon {}
+
+  .footer {width: 1260px; height: 350px; position: relative;  margin:auto;  overflow: hidden; background-color: black;}
+    .footer h2 {font-size: 20px; display: inline-block;}
+    .footer .about {width: 340px; height: 280px; position: relative; float: left;  display: inline-block; padding: 20px 10px 10px 0; 
+      margin-top: 20px; margin-left: 50px; background-color: black; color: white; padding-left:20px;}
+      .footer .about .top {width: 90px; height: 30px; border-bottom: 1px solid grey;}
+      .footer .about .icon img {width: 36px; }
+    .footer .about .icon {padding-top: 10px;}
+    .footer .news {width: 400px; height: 300px; position: relative; float: left;  display: inline-block; padding: 10px 10px 10px 0; 
+      margin-top: 20px; margin-left: 50px;   background-color: black; color: white;}
+      .footer .news .top {width: 110px; height: 30px; border-bottom: 1px solid grey;  }
+      .footer .news .col {width: 360px; height: 50px;  margin-top: 10px;}
+      .footer .news .col img { width: 30px; height: 30px; float: left;}
+      .footer .news .col .teks {margin-left: 10px;  float: left;}
+      .footer .news .col .teks a {font-size: sans-serif; font-size: 12px;} 
+      .footer .news p {font-family: sans-serif; margin-top: 0;  font-size: 14px; }
+    .footer .join {width: 300px; height: 280px; position: relative; float: left;  display: inline-block; padding: 10px 10px 10px 0x; 
+      margin-top: 30px; margin-left: 30px; background-color: black; color: white;}
+      .footer .join .box {margin-top: 20px;}
+      .footer .join .top {width: 180px; height: 30px; border-bottom: 1px solid grey;}
+   
+    .footer .about p, .footer .join p {font-family: sans-serif; font-size: 14px; 
+      padding-bottom: 10px; padding-top: 20px; }
+   
+    .siteinfo {background-color: black; color: white ; border-top: 1px solid grey; line-height: 40px;  text-align: center; font-size:14px; }

@@ -1,0 +1,67 @@
+* {padding: 0; margin: 0; }
+
+.menu {top: 0;  width: 1200px; font-family: sans-serif;  margin: auto; 
+    display: flex; line-height: 70px;  position: relative;}
+  .menu .kirimenu {display: inline-block;  width: 300px; height: 70px; padding: 17px 0; background: white; margin-left: 100px;}
+  .menu .kananmenu  { display: inline-block;  width: 700px; background: white;  margin: 15px 0 0 180px;}
+  .menu .kananmenu ul {text-decoration: none;}
+  
+  .menu .kananmenu ul li {display: inline-block;  position: relative;  5px; background: white;}
+  .menu .kananmenu li a {padding: 22px 15px 23px; color: black;}
+  
+  .menu .kananmenu ul ul { display: none; position: absolute; top: 100%; left: 0; 
+    background-color: white; padding: 10px; z-index: 2;}
+    
+  .menu .kananmenu ul ul li { display: block;  clear: both; width: 150px; margin: 0; padding: 0;}
+  .menu .kananmenu ul ul ul { left: 100%; top: 0; }
+  .menu .kananmenu ul ul li a {padding: 10px; color: black; text-decoration: none;}
+  .menu .kananmenu ul ul ul li {width: 200px;}
+
+  .menu .kananmenu ul li:hover > ul {display: block;}
+  .menu .kananmenu ul li:hover {background: white;}
+  .menu .kananmenu ul li a:hover {color: black; background: white;}
+  .menu .kananmenu  img {width: 20px; height: 20px; margin: 20px 0 0 20px;} 
+
+  article .cont {width: 1250px; height: 650px; margin: auto; 
+    position: relative; padding: 50px 20px; background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;}
+    article .cont .contact {padding-bottom: 20px;}
+    article .cont .contact .sosmed {margin-top: 5px;}
+  article .cont .sosmed img {width: 25px; height: 34px;}
+  article .cont .contact {width: 700px; height: 120px; margin: auto; position: relative; text-align: center; }
+  article .cont .contact p {width: 300px; height: 40px; margin: auto; padding-top: 5px;}
+  article .cont .contact h1 {font-size: 35px;}
+  article .cont .col {width: 700px; height: 450px; margin: auto; font-size: 12px;
+    padding: 20px; background-color: white; position: relative;}
+  article .cont .col .fname1,   article .cont .col .email, 
+  article .cont .col .phone  {width: 640px; height: 60px;}
+  article .cont input[type=text],  article .cont input[type=email] {width: 700px; height: 40px;}
+  article .cont .col .botom textarea {width: 700px; height: 140px;}
+  article .cont .col .botom span {margin-left: 670px;}
+  article .cont .col .send {width: 150px; height: 40px; padding-top: 50px; }
+  article .cont .col .send a {background-color: black; color: white; text-decoration: none; padding: 10px;}
+
+  .footer {width: 1260px; height: 350px; position: relative;  margin:auto;  overflow: hidden; background-color: black;}
+    .footer h2 {font-size: 20px; display: inline-block;}
+    .footer .about {width: 340px; height: 280px; position: relative; float: left;  display: inline-block; padding: 20px 10px 10px 0; 
+      margin-top: 20px; margin-left: 50px; background-color: black; color: white; padding-left:20px;}
+      .footer .about .top {width: 90px; height: 30px; border-bottom: 1px solid grey;}
+      .footer .about .icon img {width: 36px; }
+    .footer .about .icon {padding-top: 10px;}
+    .footer .news {width: 400px; height: 300px; position: relative; float: left;  display: inline-block; padding: 10px 10px 10px 0; 
+      margin-top: 20px; margin-left: 50px;   background-color: black; color: white;}
+      .footer .news .top {width: 110px; height: 30px; border-bottom: 1px solid grey;  }
+      .footer .news .col {width: 360px; height: 50px;  margin-top: 10px;}
+      .footer .news .col img { width: 30px; height: 30px; float: left;}
+      .footer .news .col .teks {margin-left: 10px;  float: left;}
+      .footer .news .col .teks a {font-size: sans-serif; font-size: 12px;} 
+      .footer .news p {font-family: sans-serif; margin-top: 0;  font-size: 14px; }
+    .footer .join {width: 300px; height: 280px; position: relative; float: left;  display: inline-block; padding: 10px 10px 10px 0x; 
+      margin-top: 30px; margin-left: 30px; background-color: black; color: white;}
+      .footer .join .box {margin-top: 20px;}
+      .footer .join .top {width: 180px; height: 30px; border-bottom: 1px solid grey;}
+   
+    .footer .about p, .footer .join p {font-family: sans-serif; font-size: 14px; 
+      padding-bottom: 10px; padding-top: 20px; }
+   
+    .siteinfo {background-color: black; color: white ; border-top: 1px solid grey; line-height: 40px;  text-align: center; font-size:14px; }
